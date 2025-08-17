@@ -1,0 +1,9 @@
+package com.bookstore.notifications.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.bookstore.notifications.domain.models.Dto.OrderEventEntity;
+
+public interface OrderEventRepository extends JpaRepository<OrderEventEntity, Long> {
+    boolean existsByEventId(String eventId);
+}

@@ -1,0 +1,14 @@
+package com.bookstore.notifications;
+
+import org.springframework.boot.SpringApplication;
+
+import com.bookstore.notifications.NotificationServiceApplication;
+
+public class TestNotificationServiceApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.from(NotificationServiceApplication::main)
+                .with(ContainersConfig.class)
+                .run(args);
+    }
+}
