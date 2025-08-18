@@ -1,0 +1,14 @@
+package com.bookstore.orders;
+
+import org.springframework.boot.SpringApplication;
+
+import com.bookstore.orders.OrderServiceApplication;
+
+public class TestOrderServiceApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.from(OrderServiceApplication::main)
+                .with(ContainersConfig.class)
+                .run(args);
+    }
+}
