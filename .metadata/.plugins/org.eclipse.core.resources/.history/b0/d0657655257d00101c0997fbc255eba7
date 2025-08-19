@@ -1,0 +1,5 @@
+package com.bookstore.webapp.clients;
+
+public class OpenTelemetryShitdown {
+
+}

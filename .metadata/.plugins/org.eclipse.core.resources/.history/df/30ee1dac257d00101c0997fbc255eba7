@@ -17,6 +17,7 @@ management.tracing.sampling.probability=1.0
 OAUTH2_SERVER_URL=http://localhost:9191
 REALM_URL=${OAUTH2_SERVER_URL}/realms/bookstore
 
+spring.devtools.restart.enabled=false
 
 spring.security.oauth2.client.registration.bookstore-webapp.client-id=bookstore-webapp
 spring.security.oauth2.client.registration.bookstore-webapp.client-secret=P1sibsIrELBhmvK18BOzw1bUl96DcP2z

@@ -1,0 +1,21 @@
+package com.bookstore.webapp.clients;
+
+import io.opentelemetry.sdk.trace.SdkTracerProvider;
+import jakarta.annotation.PreDestroy;
+import org.springframework.stereotype.Component;
+//tried something-not important/useful
+@Component
+public class OpenTelemetryShutdown {
+
+    private final SdkTracerProvider sdkTracerProvider;
+
+    public OpenTelemetryShutdown(SdkTracerProvider sdkTracerProvider) {
+        this.sdkTracerProvider = sdkTracerProvider;
+    }
+
+    @PreDestroy
+    public void shutdown() {
+        // Flush & shutdown span processors (stops BatchSpanProcessor threads)
+        sdkTracerProvider.close();
+    }
+}

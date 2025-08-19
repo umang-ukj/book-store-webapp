@@ -3533,3 +3533,4 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was
 2025-08-18 16:10:27,615 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@33c556ea{STOPPING}[10.0.11,sto=0]
 2025-08-18 16:10:27,625 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@27cd9793{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
 2025-08-18 16:10:27,648 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@2f02de5{/help,null,STOPPED}
+2025-08-19 22:12:58,729 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

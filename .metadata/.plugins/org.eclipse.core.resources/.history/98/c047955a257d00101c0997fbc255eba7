@@ -1,0 +1,15 @@
+package com.bookstore.webapp.clients;
+
+import io.opentelemetry.sdk.OpenTelemetrySdk;
+import jakarta.annotation.PreDestroy;
+import org.springframework.stereotype.Component;
+
+@Component
+public class OpenTelemetryShutdown {
+
+    @PreDestroy
+    public void shutdown() {
+        // Gracefully stop OpenTelemetry background threads
+        OpenTelemetrySdk.getGlobalTracerManagement().shutdown();
+    }
+}
