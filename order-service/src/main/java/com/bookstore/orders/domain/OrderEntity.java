@@ -26,8 +26,8 @@ import com.bookstore.orders.domain.models.OrderStatus;
 public class OrderEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "order_id_generator")
-    @SequenceGenerator(name = "order_id_generator", sequenceName = "order_id_seq")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //@SequenceGenerator(name = "order_id_generator", sequenceName = "order_id_seq")
     private Long id;
 
     @Column(nullable = false)

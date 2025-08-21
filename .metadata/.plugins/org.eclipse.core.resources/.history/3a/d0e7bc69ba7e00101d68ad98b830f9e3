@@ -3,19 +3,20 @@ server.port=8080
 server.shutdown=graceful
 spring.mvc.problemdetails.enabled=true
 
-######## BookStore Application Configuration  #########
+# BookStore Application Configuration
 bookstore.api-gateway-url=http://localhost:8989
 
-######## Actuator Configuration  #########
+# Actuator Configuration
 management.info.git.mode=full
 management.endpoints.web.exposure.include=*
 management.metrics.tags.application=${spring.application.name}
 management.tracing.enabled=false
 management.tracing.sampling.probability=1.0
 
-######## OAuth2 Security Configuration  #########
+# OAuth2 Security Configuration
 OAUTH2_SERVER_URL=http://localhost:9191
 REALM_URL=${OAUTH2_SERVER_URL}/realms/bookstore
+
 
 spring.security.oauth2.client.registration.bookstore-webapp.client-id=bookstore-webapp
 spring.security.oauth2.client.registration.bookstore-webapp.client-secret=P1sibsIrELBhmvK18BOzw1bUl96DcP2z

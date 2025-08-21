@@ -5,6 +5,9 @@ import org.springframework.boot.http.client.ClientHttpRequestFactoryBuilder;
 import org.springframework.boot.web.client.RestClientCustomizer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.oauth2.jwt.Jwt;
 import org.springframework.web.client.RestClient;
 import org.springframework.web.client.support.RestClientAdapter;
 import org.springframework.web.service.invoker.HttpServiceProxyFactory;
@@ -41,11 +44,30 @@ class ClientsConfig {
         return factory.createClient(CatalogServiceClient.class);
     }
 
+	/*
+	 * @Bean OrderServiceClient orderServiceClient(RestClient.Builder builder) {
+	 * RestClient restClient = builder.build(); HttpServiceProxyFactory factory =
+	 * HttpServiceProxyFactory.builderFor(RestClientAdapter.create(restClient))
+	 * .build(); return factory.createClient(OrderServiceClient.class); }
+	 */
+    
     @Bean
     OrderServiceClient orderServiceClient(RestClient.Builder builder) {
+        // Interceptor to attach JWT token
+        builder.requestInterceptor((request, body, execution) -> {
+            Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+            if (authentication != null && authentication.getPrincipal() instanceof Jwt jwt) {
+                request.getHeaders().setBearerAuth(jwt.getTokenValue());
+            }
+            return execution.execute(request, body);
+        });
+
         RestClient restClient = builder.build();
-        HttpServiceProxyFactory factory = HttpServiceProxyFactory.builderFor(RestClientAdapter.create(restClient))
+
+        HttpServiceProxyFactory factory = HttpServiceProxyFactory
+                .builderFor(RestClientAdapter.create(restClient))
                 .build();
+
         return factory.createClient(OrderServiceClient.class);
     }
 }
