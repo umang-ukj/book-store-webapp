@@ -69,3 +69,10 @@ springdoc:
 #        url: /v3/api-docs/catalog
 #      - name: orders
 #        url: /v3/api-docs/orders
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka

@@ -3869,3 +3869,179 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected ST
 2025-08-19 23:42:33,647 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
 2025-08-19 23:42:33,651 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Eclipse_workspace\book store\bookstore-webapp\src\test\resources
 2025-08-20 22:03:11,785 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-08-21 16:53:31,857 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-08-21 16:55:06,234 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.boot:bookstore-webapp:0.0.1-SNAPSHOT @ D:\Eclipse_workspace\book store\bookstore-webapp\pom.xml.
+2025-08-21 16:55:09,259 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - dotGitDirectory 'D:\Eclipse_workspace\book store\.git'
+2025-08-21 16:55:10,298 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.branch with value main
+2025-08-21 16:55:10,304 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.abbrev with value 2688063
+2025-08-21 16:55:10,306 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.name with value umang kumar jain
+2025-08-21 16:55:10,307 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.full with value added keycloak configuration to bookstore app and connected it. need to load products next
+2025-08-21 16:55:10,334 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.name' in results
+2025-08-21 16:55:10,334 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.abbrev' in results
+2025-08-21 16:55:10,334 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.branch' in results
+2025-08-21 16:55:10,334 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.full' in results
+2025-08-21 16:55:10,337 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing properties file [D:\Eclipse_workspace\book store\bookstore-webapp\target\classes\git.properties] (for project bookstore-webapp)...
+2025-08-21 16:55:11,103 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-08-21 16:55:11,149 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2025-08-21 16:55:14,487 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless.Java is keeping 20 files clean - 20 needs changes to be clean, 0 were already clean, 0 were skipped because caching determined they were already clean
+2025-08-21 16:55:14,611 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Eclipse_workspace\book store\bookstore-webapp\src\test\resources
+2025-08-21 16:55:16,933 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - dotGitDirectory 'D:\Eclipse_workspace\book store\.git'
+2025-08-21 16:55:16,941 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.branch with value main
+2025-08-21 16:55:16,941 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.abbrev with value 2688063
+2025-08-21 16:55:16,942 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.name with value umang kumar jain
+2025-08-21 16:55:16,942 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.full with value added keycloak configuration to bookstore app and connected it. need to load products next
+2025-08-21 16:55:16,943 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.name' in results
+2025-08-21 16:55:16,943 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.abbrev' in results
+2025-08-21 16:55:16,943 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.branch' in results
+2025-08-21 16:55:16,944 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.full' in results
+2025-08-21 16:55:16,944 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing properties file [D:\Eclipse_workspace\book store\notification-service\target\classes\git.properties] (for project notification-service)...
+2025-08-21 16:55:16,952 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-21 16:55:16,955 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-21 16:55:17,849 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless.Java is keeping 19 files clean - 19 needs changes to be clean, 0 were already clean, 0 were skipped because caching determined they were already clean
+2025-08-21 16:55:17,932 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Eclipse_workspace\book store\notification-service\src\test\resources
+2025-08-21 16:55:19,085 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.boot:bookstore-webapp:0.0.1-SNAPSHOT @ D:\Eclipse_workspace\book store\bookstore-webapp\pom.xml.
+2025-08-21 16:55:20,354 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2025-08-21 16:55:20,361 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-21 16:55:20,361 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-21 16:55:20,365 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
+2025-08-21 16:55:20,369 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Eclipse_workspace\book store\bookstore-webapp\src\test\resources
+2025-08-21 16:55:24,643 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - dotGitDirectory 'D:\Eclipse_workspace\book store\.git'
+2025-08-21 16:55:24,650 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.branch with value main
+2025-08-21 16:55:24,651 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.abbrev with value 2688063
+2025-08-21 16:55:24,651 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.name with value umang kumar jain
+2025-08-21 16:55:24,651 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.full with value added keycloak configuration to bookstore app and connected it. need to load products next
+2025-08-21 16:55:24,652 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.name' in results
+2025-08-21 16:55:24,653 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.abbrev' in results
+2025-08-21 16:55:24,653 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.branch' in results
+2025-08-21 16:55:24,653 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.full' in results
+2025-08-21 16:55:24,653 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing properties file [D:\Eclipse_workspace\book store\order-service\target\classes\git.properties] (for project order-service)...
+2025-08-21 16:55:24,669 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-21 16:55:24,673 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-21 16:55:26,624 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless.Java is keeping 51 files clean - 51 needs changes to be clean, 0 were already clean, 0 were skipped because caching determined they were already clean
+2025-08-21 16:55:26,771 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2025-08-21 16:55:30,613 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - dotGitDirectory 'D:\Eclipse_workspace\book store\.git'
+2025-08-21 16:55:30,620 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.branch with value main
+2025-08-21 16:55:30,621 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.abbrev with value 2688063
+2025-08-21 16:55:30,621 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.name with value umang kumar jain
+2025-08-21 16:55:30,621 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.full with value added keycloak configuration to bookstore app and connected it. need to load products next
+2025-08-21 16:55:30,622 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.name' in results
+2025-08-21 16:55:30,623 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.abbrev' in results
+2025-08-21 16:55:30,623 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.branch' in results
+2025-08-21 16:55:30,623 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.full' in results
+2025-08-21 16:55:30,648 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Reading existing properties file [D:\Eclipse_workspace\book store\api-gateway\target\classes\git.properties] (for project api-gateway)...
+2025-08-21 16:55:30,665 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing properties file [D:\Eclipse_workspace\book store\api-gateway\target\classes\git.properties] (for project api-gateway)...
+2025-08-21 16:55:30,671 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-21 16:55:30,688 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-21 16:55:30,921 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless.Java is keeping 3 files clean - 3 needs changes to be clean, 0 were already clean, 0 were skipped because caching determined they were already clean
+2025-08-21 16:55:30,955 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Eclipse_workspace\book store\api-gateway\src\test\resources
+2025-08-21 16:56:17,586 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - dotGitDirectory 'D:\Eclipse_workspace\book store\.git'
+2025-08-21 16:56:17,591 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.branch with value main
+2025-08-21 16:56:17,592 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.abbrev with value 2688063
+2025-08-21 16:56:17,592 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.name with value umang kumar jain
+2025-08-21 16:56:17,592 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.full with value added keycloak configuration to bookstore app and connected it. need to load products next
+2025-08-21 16:56:17,593 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.name' in results
+2025-08-21 16:56:17,593 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.abbrev' in results
+2025-08-21 16:56:17,593 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.branch' in results
+2025-08-21 16:56:17,593 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.full' in results
+2025-08-21 16:56:17,623 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Reading existing properties file [D:\Eclipse_workspace\book store\catalog-service\target\classes\git.properties] (for project catalog-service)...
+2025-08-21 16:56:17,636 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing properties file [D:\Eclipse_workspace\book store\catalog-service\target\classes\git.properties] (for project catalog-service)...
+2025-08-21 16:56:17,643 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-21 16:56:17,648 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-08-21 16:56:18,156 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless.Java is keeping 19 files clean - 19 needs changes to be clean, 0 were already clean, 0 were skipped because caching determined they were already clean
+2025-08-21 16:56:18,174 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2025-08-21 16:57:05,471 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2025-08-21 16:57:05,477 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-21 16:57:05,477 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-21 16:57:05,481 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
+2025-08-21 16:57:05,485 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Eclipse_workspace\book store\notification-service\src\test\resources
+2025-08-21 16:57:16,642 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.boot:notification-service:0.0.1-SNAPSHOT @ D:\Eclipse_workspace\book store\notification-service\pom.xml.
+2025-08-21 16:57:18,179 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2025-08-21 16:57:18,186 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-21 16:57:18,187 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-21 16:57:18,191 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
+2025-08-21 16:57:18,195 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Eclipse_workspace\book store\notification-service\src\test\resources
+2025-08-21 16:57:41,371 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2025-08-21 16:57:41,378 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-21 16:57:41,378 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-21 16:57:41,382 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
+2025-08-21 16:57:41,386 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2025-08-21 16:58:18,114 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2025-08-21 16:58:18,120 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-21 16:58:18,120 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-21 16:58:18,123 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
+2025-08-21 16:58:18,128 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2025-08-21 16:58:25,283 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2025-08-21 16:58:25,289 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-21 16:58:25,289 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-21 16:58:25,292 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
+2025-08-21 16:58:25,295 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2025-08-21 16:59:01,719 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2025-08-21 16:59:01,723 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-21 16:59:01,724 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-21 16:59:01,726 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
+2025-08-21 16:59:01,729 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2025-08-21 17:00:54,217 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2025-08-21 17:00:54,223 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-21 17:00:54,223 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-21 17:00:54,227 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
+2025-08-21 17:00:54,230 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2025-08-21 17:01:00,570 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2025-08-21 17:01:00,576 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-21 17:01:00,576 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-21 17:01:00,579 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
+2025-08-21 17:01:00,583 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2025-08-21 22:34:01,881 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2025-08-21 22:34:01,889 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-21 22:34:01,947 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-21 22:34:01,952 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
+2025-08-21 22:34:01,955 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Eclipse_workspace\book store\notification-service\src\test\resources
+2025-08-21 23:28:00,556 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2025-08-21 23:28:00,726 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-21 23:28:00,736 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-21 23:28:00,743 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
+2025-08-21 23:28:00,747 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-21 23:28:58,747 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2025-08-21 23:28:58,754 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-21 23:28:58,772 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-21 23:28:58,775 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
+2025-08-21 23:28:58,777 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-21 23:29:04,138 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2025-08-21 23:29:04,146 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-21 23:29:04,169 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-21 23:29:04,173 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
+2025-08-21 23:29:04,176 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-21 23:32:39,380 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2025-08-21 23:32:39,386 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-21 23:32:39,394 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-21 23:32:39,398 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
+2025-08-21 23:32:39,401 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-21 23:32:42,907 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2025-08-21 23:32:42,914 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-21 23:32:42,920 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-21 23:32:42,924 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
+2025-08-21 23:32:42,927 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-21 23:32:56,554 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2025-08-21 23:32:56,560 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-21 23:32:56,565 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-21 23:32:56,569 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
+2025-08-21 23:32:56,574 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-21 23:41:35,396 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2025-08-21 23:41:35,404 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-08-21 23:41:35,418 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2025-08-21 23:41:35,424 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
+2025-08-21 23:41:35,426 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Eclipse_workspace\book store\bookstore-webapp\src\test\resources
+2025-08-21 23:41:51,128 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2025-08-21 23:41:51,135 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-08-21 23:41:51,145 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2025-08-21 23:41:51,151 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
+2025-08-21 23:41:51,155 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Eclipse_workspace\book store\bookstore-webapp\src\test\resources
+2025-08-21 23:41:58,653 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2025-08-21 23:41:58,660 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-08-21 23:41:58,673 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2025-08-21 23:41:58,679 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
+2025-08-21 23:41:58,683 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Eclipse_workspace\book store\bookstore-webapp\src\test\resources
+2025-08-21 23:42:35,803 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2025-08-21 23:42:35,811 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-21 23:42:35,817 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-21 23:42:35,822 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Spotless check skipped
+2025-08-21 23:42:35,826 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Eclipse_workspace\book store\bookstore-webapp\src\test\resources

@@ -9,4 +9,7 @@
     <fullyQualifiedTypeName name="com.bookstore.orders.repository.OrderEventRepository"/>
     <fullyQualifiedTypeName name="com.bookstore.orders.domain.OrderEventMapper"/>
     <fullyQualifiedTypeName name="com.bookstore.orders.domain.OrderMapper"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.Authentication"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.context.SecurityContextHolder"/>
+    <fullyQualifiedTypeName name="org.springframework.security.oauth2.jwt.Jwt"/>
 </qualifiedTypeNameHistroy>
